@@ -8,3 +8,5 @@ This project was made using the following resources:
 - [miniquad-mandelbrot](https://github.com/PonasKovas/miniquad-mandelbrot/blob/master/src/main.rs)
 - [Wikipedia: Lyapunov fractal](https://en.wikipedia.org/wiki/Lyapunov_fractal)
 - [Lyapunov Fractal by Frankovich](https://frankovich.dev/blog/lyapunov-fractal)
+
+![Alt Text](https://giphy.com/gifs/tmkJqZ8YHPCzMlX874)
