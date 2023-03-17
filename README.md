@@ -9,4 +9,5 @@ This project was made using the following resources:
 - [Wikipedia: Lyapunov fractal](https://en.wikipedia.org/wiki/Lyapunov_fractal)
 - [Lyapunov Fractal by Frankovich](https://frankovich.dev/blog/lyapunov-fractal)
 
-![Alt Text](https://giphy.com/gifs/tmkJqZ8YHPCzMlX874)
+![](https://imgur.com/a/1XLnfJE)
+
