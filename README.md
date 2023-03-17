@@ -1,6 +1,6 @@
-# Lyapunov Fractal Renderer
+# Lyapunov Fractals
 
-Lyapunov fractal renderer using the [miniquad](https://github.com/not-fl3/miniquad) library.
+Lyapunov fractal visualization using the [miniquad](https://github.com/not-fl3/miniquad) library. Zoom in and out of the fractal by clicking on the screen, color palette and logistic map parameters can be randomly updated by pressing the spacebar.
 ## Inspiration
 
 This project was made using the following resources:
