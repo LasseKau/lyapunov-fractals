@@ -6,7 +6,8 @@ use miniquad::{
 };
 
 use quad_rand as qrand;
-use std::time::{SystemTime, UNIX_EPOCH};
+use std::time::Instant;
+
 
 #[repr(C)]
 struct Vec2 {
@@ -96,7 +97,9 @@ impl Lyapunov {
             shader.unwrap(),
         );
 
-        let seed = SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() as u64;
+        let now = Instant::now();
+        let seed = now.elapsed().as_nanos() as u64;
+        
         qrand::srand(seed);
 
         // Color range (sine)
@@ -253,6 +256,8 @@ impl EventHandler for Lyapunov {
             }
         }
     }
+
+    
 }
 
 fn main() {

@@ -9,3 +9,4 @@ authors = ["Lasse <lassekau@proton.me>"]
 [dependencies]
 miniquad = "0.3.15"
 quad-rand = "0.2.1"
+instant = { version = "0.1", features = ["wasm-bindgen"] }
