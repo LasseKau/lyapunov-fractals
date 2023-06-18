@@ -6,8 +6,6 @@ use miniquad::{
 };
 
 use quad_rand as qrand;
-use std::time::Instant;
-
 
 #[repr(C)]
 struct Vec2 {
@@ -96,11 +94,6 @@ impl Lyapunov {
             &[VertexAttribute::new("pos", VertexFormat::Float2)],
             shader.unwrap(),
         );
-
-        let now = Instant::now();
-        let seed = now.elapsed().as_nanos() as u64;
-        
-        qrand::srand(seed);
 
         // Color range (sine)
         let color_seed_min = 0.0;
