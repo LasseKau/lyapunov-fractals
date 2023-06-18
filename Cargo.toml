@@ -1,5 +1,5 @@
 [package]
-name = "lyapunov-demo"
+name = "lyapunov-demo-1"
 version = "0.1.0"
 edition = "2021"
 authors = ["Lasse <lassekau@proton.me>"]
@@ -7,6 +7,6 @@ authors = ["Lasse <lassekau@proton.me>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-miniquad = "0.3.15"
+miniquad = "0.3.11"
 quad-rand = "0.2.1"
 instant = { version = "0.1", features = ["wasm-bindgen"] }
