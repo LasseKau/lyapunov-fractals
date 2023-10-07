@@ -1,6 +1,8 @@
 Lyapunov Fractals
 =====================
 
+![Lyapunov](https://pasteboard.co/o7bSyyPUspzO.png)
+
 Lyapunov fractal visualization using the [miniquad](https://github.com/not-fl3/miniquad) library. Zoom in and out of the fractal by clicking on the screen, color palette and logistic map parameters can be randomly updated by pressing the spacebar.
 
 Web Build
@@ -20,6 +22,11 @@ On web, windows and mac os no other external depdendecies are required.
 On linux followed libs may be required: 
 ```
 apt install libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev
+
+```
+### Native
+```
+cargo run --release
 ```
 
 Inspiration
