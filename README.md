@@ -1,7 +1,7 @@
 Lyapunov Fractals
 =====================
 
-![Lyapunov](https://pasteboard.co/o7bSyyPUspzO.png)
+![](/static/example.png)
 
 Lyapunov fractal visualization using the [miniquad](https://github.com/not-fl3/miniquad) library. Zoom in and out of the fractal by clicking on the screen, color palette and logistic map parameters can be randomly updated by pressing the spacebar.
 
@@ -15,16 +15,14 @@ Building from source
 
 Depedencies:
 
-The main depdency: the rust compiler.   
-To get it, follow [rustup.rs](https://rustup.rs/) instructions.
+Install Rust, follow [rustup.rs](https://rustup.rs/) for instructions.
 
-On web, windows and mac os no other external depdendecies are required.
-On linux followed libs may be required: 
+On linux install the following libraries:
 ```
 apt install libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev
 
 ```
-### Native
+Then run:
 ```
 cargo run --release
 ```
