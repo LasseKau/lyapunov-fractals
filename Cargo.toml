@@ -9,4 +9,5 @@ authors = ["Lasse <lassekau@proton.me>"]
 [dependencies]
 miniquad = "=0.3.12"
 quad-rand = "0.2.1"
+egui-miniquad = "0.14.0"
 
